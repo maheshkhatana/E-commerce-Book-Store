@@ -1,0 +1,34 @@
+{
+  "name": "bookmonk",
+  "version": "1.0.0",
+  "description": "Building a books selling website",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && node index.js",
+    "heroku-postbuild": "",
+    "server-dev": "cd server && nodemon server.js",
+    "client-dev": "cd client && npm start",
+    "start-dev": "concurrently \"npm run server-dev\" \"npm run client-dev\""
+  },
+  "author": "Suresh Mangs",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-mailjet": "^3.3.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-google-token": "^0.1.2",
+    "passport-jwt": "^4.0.0",
+    "stripe": "^8.56.0",
+    "uuidv4": "^6.1.0"
+  }
+}
