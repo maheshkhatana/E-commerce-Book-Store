@@ -54,23 +54,3 @@ To run the application, in the root dirctory
 
 `npm run start-dev`
 
-
-## :arrow_right: Demo
-
-
-HomePage
-
-
-![alt text](./Demo/HomePage.gif "Homepage")
-
-
-Login
-
-
-![alt text](./Demo/Login.gif "Login")
-
-
-Add to Cart and Checkout
-
-
-![alt text](./Demo/Demo.gif "Cart")
